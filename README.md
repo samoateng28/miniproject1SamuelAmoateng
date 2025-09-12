@@ -1,10 +1,9 @@
 ### INF601 - Advanced Programming in Python
-### Jane Doe
+### Samuel Amoateng
 ### Mini Project 1
  
  
 # Project Title
- 
 Simple overview of use/purpose.
  
 ## Description
