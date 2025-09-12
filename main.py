@@ -1,7 +1,6 @@
 #  INF601 - Advanced Programming in Python
 #  Samuel Amoateng
 #  Mini Project 1
-import pprint
 
 # (5/5 points) Initial comments with your name, class and project at the top of your .py file.  -- Done
 # (5/5 points) Proper import of packages used.  -- Done
