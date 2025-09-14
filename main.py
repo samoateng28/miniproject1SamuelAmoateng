@@ -37,7 +37,12 @@ for tickers in mystocks:
     high_low.sort()
 
     plt.plot(mystock)
+    plt.title(tickers)
     plt.axis((0,10, high_low[0]-10,high_low[-1]+10))
     plt.ylabel("Closing Prices")
     plt.xlabel("Last 10 Trading days")
+
+    # I saved the graphs into the chart directory
+    plt.savefig(f'charts/{tickers}.png')
     plt.show()
+
