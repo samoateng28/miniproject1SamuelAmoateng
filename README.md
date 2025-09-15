@@ -4,11 +4,11 @@
  
  
 # Project Title
-Simple overview of use/purpose.
+Stock Price Visualization with NumPy and Matplotlib.
  
 ## Description
  
-An in-depth paragraph about your project and overview of use.
+This project focusses on getting and visualising stock market data in Python.  Using the yfinance API, the software gets the most recent closing prices for five selected stock tickers over the last ten days.  The data is kept in lists, turned into NumPy arrays for easy processing, and then projected onto individual graphs using Matplotlib.  Each graph provides a clear visual representation of stock performance, making it easier to identify short-term patterns and variations.  The application saves the graphs as PNG files in a charts folder, making the results replicable and easily accessible.
  
 ## Getting Started
  
@@ -29,8 +29,7 @@ Samuel Amoateng
 ## Version History
 * 0.1
     * Initial Release
-    * 
 ## Acknowledgments
 Inspiration, code snippets, etc.
-* [matplotlib documentation](https://github.com/matiassingers/awesome-readme)
-* [yfinance documentation](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* [matplotlib documentation](https://matplotlib.org/stable/index.html)
+* [yfinance documentation](https://ranaroussi.github.io/yfinance/index.html)
